@@ -1,0 +1,30 @@
+{
+	"name": "git-commiter",
+	"version": "0.0.1",
+	"description": "Git Bot Commiter",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.0",
+		"dotenv": "^4.0.0",
+		"express": "^4.12.4",
+		"rimraf": "^2.6.1",
+		"simple-git": "^1.77.0"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://githost.com/camper/repo.git"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express",
+		"freecodecamp"
+	],
+	"license": "MIT"
+}
